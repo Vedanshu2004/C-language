@@ -1,0 +1,22 @@
+#include<stdio.h>
+main()
+{
+	int a[2][2],i,j,n=2;
+	for(i=0;i<n;i++)
+	{
+		for(j=0;j<n;j++)
+		{
+			scanf("%d",&a[i][j]);
+		}
+	}
+	for(i=0;i<n;i++)
+	{
+		printf("[");
+		for(j=0;j<n;j++)
+		{
+		printf("%d",a[i][j]);
+	    }
+	printf("]");
+	printf("\n");
+    }
+}
